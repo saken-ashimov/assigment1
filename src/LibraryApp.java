@@ -155,7 +155,7 @@ public class LibraryApp {
         return null;
     }
 
-    // Безопасное чтение int (чтобы не ломалось при вводе "abc")
+    // read int
     private int readInt(String prompt) {
         while (true) {
             System.out.print(prompt);
